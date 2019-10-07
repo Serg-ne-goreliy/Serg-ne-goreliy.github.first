@@ -1,115 +1,101 @@
 body {
+	margin-top:113px;
 
+	font-size:15px;
+	color:#fff;
+
+	background-color:#928a8a;
 }
+h1, h2, h3, h4, h5, h6{
+	margin:0px;
+}
+*,
+*:before,
+*:after{
+	box-sizing: border-box;}
 
-.intro {
-	width:100%;
-	height: 100vh;
-	background: url(Images/5-9.png) no-repeat center;
-	position: absolute;
-	top:0px;
-	left:0px;
-}	
-
-
+/*==============Container==============*/
 .container{
-	position:absolute;
-	top:120px;
-	left:130px;
-	right:130px;
 	width:100%;
-	max-width: 1200px;
-	margin:0 auto;
+	max-width: 1080px;
+	margin: -8px auto;
 }
-
+/*==============Header=============*/
 .header{
-	width:100%;
 	position:absolute;
-	top:0px;
+	top:113px;
 	left:0px;
-	right:0px;
-	z-index:1000;
-}
-
-.header__line{
-	
-	margin-top:23px;
-	margin-left: 150px;
-	margin-right: 110px;
-	opacity: .3;
-}
-}
-
-.nav{
-	font-size: 25px;
-	text-transform: uppercase;
-    border-right:30px;
-}
-
-.nav__link{
-	position: relative;
-	top:10px;
-	right: -792px;
-	display: inline-block;
-    vertical-align: top;
-    margin:0 20px;
-    text-transform: uppercase;
-	color:white;
-	text-decoration: none;
-	font-size:18px;
-	transition:color .2s linear;
-	
-	
-}
-
-.nav__link:hover{
-	color:blue;
-}
-
-.nav__link:hover:after{
-	opacity:1;
-	display: block;
-}
-
-.nav__link:after{
-	content: "";
-	display: block;
+	z-index: 1000;
 	width: 100%;
-	height: 3px;
-	background-color: blue;
-	position: absolute;
-	top:100%;
-	left:0;
-	z-index: 1;
-	display: none;
-	transition: opacity .1s linear;
+	height:100px;
+
+}	
+.header__inner{
+	display:flex;
+	width:100%;
+	border-bottom: 2px solid #fff;
+	padding:35px 0;
+
+   
+}
+.nav{
+    text-transform: uppercase;
+    font-size: 16px;
+    display: flex;
+    
+}
+.nav__link{
+	text-decoration: none;
+	color:#fff;
+	opacity: .7;
+	transition: opacity .4s linear;
+	margin-left: 50px;
+}
+.nav__link:hover{
+	opacity: 1;
+	text-decoration:underline;
 }
 
-.logo{
-	position: absolute;
-	font-size:55px;
-	color:white;
-	opacity:.3;
-	margin-top:150px;
-	margin-left:60px;
+
+/*===================Intro====================*/
+.intro{
+	top:-113px;
+	height: 792px;
+	width: 100%;
+	background: #928a8a url("Images/5-9.png") center no-repeat;
+	background-size: cover;
+	padding-top:100px;
+    z-index: 1;
+	display:flex;
+    position: relative;
 }
 
-.text1{
-	position: absolute;
-	font-size:50px;
-	color:white;
-	margin-top:420px;
-	margin-left:95px;
-	opacity: .8;
-}
 
-.text2{
-	position: absolute;
-	font-size: 15px;
-	color:white;
-	margin-top: 480px;
-	margin-left:115px;
-	opacity: .6;
 
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
