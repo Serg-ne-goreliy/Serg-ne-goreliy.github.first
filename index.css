@@ -51,8 +51,10 @@ h1, h2, h3, h4, h5, h6{
 .header__inner{
 	padding:35px 0;
 	text-align: right;
-	position: relative;
 
+}
+.nav{
+	color: #fff;
 }
 /*===================Intro====================*/
 .intro{
@@ -114,21 +116,29 @@ h1, h2, h3, h4, h5, h6{
 .features{
 	width:30%;
 	text-align: center;
-	padding-top: 155px;
+	padding-top: 130px;
+	display:flex;
+	justify-content: center;
+
 
 }
 .features__shadow{
-	opacity: 0.2;
-	font-size:60px;
+	opacity: 0.15;
+	font-size:70px;
 	position: relative;
 }
 .content{
-	width:30%;
-	text-align: center;
+	
 	position: absolute;
 	}
-
-
+.features__big{
+	font-size:50px;
+	padding-bottom: 20px;
+}
+.features__small{
+	font-size: 20px;
+	text-transform: uppercase;
+}
 
 
 
