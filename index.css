@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6{
 	margin: auto;
 }
 
-.container31{
+.container3{
 	width: :100%;
 	max-width: 1620px;
 	margin:0 auto;
@@ -65,16 +65,44 @@ h1, h2, h3, h4, h5, h6{
 	position: relative;	
 }
 
-
-
+/*======================Intro2=========================*/
 .intro2{
 	background: #928a8a url("Images/intro2.png") center no-repeat;
 	background-size: cover;
 	height:650px;
 	width: 100%;	
 }
+.block1{
+	height: 325px;
+	padding-top: 75px;
+	margin-left: 70px;
 
+}
+.block1__title{
+	border-left-color: #2339a8;
+	border-left-style:solid;
+	border-left-width: 8px;
+	padding-left: 55px;
+	font-size: 55px;
 
+}
+.block1__text{
+	font-size: 20px;
+	padding-top: 20px;
+	padding-left: 63px;
+	opacity: .8;
+}
+.block2{
+	height: 325px;
+	display:flex;
+	padding-left: 55px;
+}
+.names{
+	width: 33.33333%;
+}
+.agality{
+
+}
 /*======================Intro3==================*/
 .intro3{
 	background: #928a8a url("Images/intro3.png") center no-repeat;
@@ -98,7 +126,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 
-
+/*======================Intro5========================*/
 .intro5{
 	background: #928a8a url("Images/intro5.png") center no-repeat;
 	background-size: cover;
@@ -108,10 +136,7 @@ h1, h2, h3, h4, h5, h6{
 }
 .win{
 	display: flex;
-	padding-left: 90px;
-	padding-right: 
-	
-	
+	padding-left: 90px;	
 }
 .features{
 	width:30%;
@@ -140,6 +165,7 @@ h1, h2, h3, h4, h5, h6{
 	text-transform: uppercase;
 }
 
+/*======================== =======================*/
 
 
 
