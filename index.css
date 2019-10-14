@@ -171,7 +171,6 @@ h1, h2, h3, h4, h5, h6{
 	font-size: 20px;
 	justify-content: space-between;
 	border-bottom: 1px solid;
-	border-opacity:0.4;
 	
 }
 .element{
@@ -184,8 +183,39 @@ h1, h2, h3, h4, h5, h6{
 	height:700px;
 	width: 100%;
 }
+.photo{
+	height:700px;
+	width: 100%;
+	max-width: 570px;
+	display: flex;
+	flex-wrap:wrap;
+	
 
+}
+.photo__content{
+    display: flex;
+    width: 50%;
+    height: 50%;
+    
 
+}
+.photos2{
+	background: url("Images/2222.png") center no-repeat;
+	background-size: cover;
+	height: 350px;
+	width: 100%;
+}
+.photos3{
+	background: url("Images/4444.png") center no-repeat;
+	background-size: cover;
+	height: 350px;
+	width: 100%;
+}
+.photos4{
+	background-color: #fff;
+	height: 350px;
+	width: 100%;
+}
 /*======================Intro5========================*/
 .intro5{
 	background: #928a8a url("Images/intro5.png") center no-repeat;
