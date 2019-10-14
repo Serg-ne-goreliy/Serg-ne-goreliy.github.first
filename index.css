@@ -33,28 +33,21 @@ h1, h2, h3, h4, h5, h6{
 }
 /*==============Header=============*/
 .header{
-   height: 792px;
-   width: 100%;
-   position: absolute;
-   display: block;
+    position: absolute;
+    
 
 }
 .container{
-	width:100%;
-	max-width: 1200px;
-    height: 100px;
-    margin-top:114px;
-    margin-left: auto;
-    margin-right: auto;
+	position: absolute;
 
 }
 .header__inner{
-	padding:35px 0;
-	text-align: right;
+	position: absolute;
+
 
 }
 .nav{
-	color: #fff;
+	position: absolute;
 }
 /*===================Intro====================*/
 .intro{
@@ -95,12 +88,30 @@ h1, h2, h3, h4, h5, h6{
 .block2{
 	height: 325px;
 	display:flex;
-	padding-left: 55px;
+	padding-left: 70px;
+	padding-right: 70px;
+	display: flex;
+	align-items: center;
+	
 }
 .names{
 	width: 33.33333%;
+	display: flex;
+	justify-content: space-between;
+
 }
-.agality{
+.names__toptitle{
+	font-size: 120px;
+	color:#2339a8;
+}
+.names__title{
+	font-size:20px;
+	padding-right: 100px;
+	padding-top:22px;
+}
+.names__text{
+	font-size: 11px;
+	padding-top: 10px;
 
 }
 /*======================Intro3==================*/
@@ -116,7 +127,56 @@ h1, h2, h3, h4, h5, h6{
 	text-transform: uppercase;
 	padding-top: 20px;
 }
+.tech{
+	height: 720px;
+	max-width: 480px;
+	padding-left: 70px;
+	padding-top: 30px;
+	
+}
+.techall{
+	display: flex;
+	max-width: 480px;
+	width: 100%;
+	height: 60px;
+}
+.tech__specs{
+	width:50%;
+}
+.word__title{
 
+	font-size: 35px;
+	border-left-color: #2339a8;
+	border-left-style:solid;
+	border-left-width: 8px;
+	padding-left:30px;
+}
+.word__menu{
+	display: flex;
+	justify-content:;
+	padding-top: 8px;
+	padding-left: 100px;
+	font-size: 25px;
+}
+.table{
+	width:100%;
+	height: 630px;
+	padding-top: 60px;
+
+}
+.table__element{
+	display: flex;
+	padding-bottom: 12px;
+	padding-top: 7px;
+	font-size: 20px;
+	justify-content: space-between;
+	border-bottom: 1px solid;
+	border-opacity:0.4;
+	
+}
+.element{
+	opacity: .7;
+}
 /*===================Intro4=====================*/
 .intro4{
 	background: #928a8a url("Images/intro4.png") center no-repeat;
