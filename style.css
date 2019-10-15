@@ -104,6 +104,7 @@ h1, h2, h3, h4, h5, h6{
 	display: flex;
 	justify-content: space-between;
     height: 138px;
+    
 }
 .names__toptitle{
 	font-size: 120px;
