@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6{
 .nav{
 	position: absolute;
 }
-/*===================Intro====================*/
+/*===============================Intro=================================*/
 .intro{
 	height:792px;
 	width: 100%;
@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5, h6{
 	position: relative;	
 }
 
-/*======================Intro2=========================*/
+/*=================================Intro2===================================*/
 .intro2{
 	background: #928a8a url("Images/intro2.png") center no-repeat;
 	background-size: cover;
@@ -103,7 +103,7 @@ h1, h2, h3, h4, h5, h6{
 	width: 33.33333%;
 	display: flex;
 	justify-content: space-between;
-
+    height: 138px;
 }
 .names__toptitle{
 	font-size: 120px;
@@ -117,9 +117,11 @@ h1, h2, h3, h4, h5, h6{
 .names__text{
 	font-size: 11px;
 	padding-top: 10px;
-
 }
-/*======================Intro3==================*/
+.body2{
+	margin-left: 10px;
+}
+/*===============================Intro3==============================*/
 .intro3{
 	background: #928a8a url("Images/intro3.png") center no-repeat;
 	background-size: cover;
@@ -181,7 +183,7 @@ h1, h2, h3, h4, h5, h6{
 .element{
 	opacity: .7;
 }
-/*===================Intro4=====================*/
+/*==============================Intro4===================================*/
 .intro4{
 	background: #928a8a url("Images/intro4.png") center no-repeat;
 	background-size: cover;
@@ -217,6 +219,13 @@ h1, h2, h3, h4, h5, h6{
 	padding-left: 30px;
 	padding-top: 5px;
 }
+.photos1__button{
+	font-size: 20px;
+	color: #fff;
+	text-decoration: none;
+	padding-left: 30px;
+
+}
 .photos2{
 	background: url("Images/2222.png") center no-repeat;
 	background-size: cover;
@@ -238,7 +247,23 @@ h1, h2, h3, h4, h5, h6{
 .photos4:hover{
 	-webkit-transform: scale(1.1,1.1);
 }
-/*======================Intro5========================*/
+.photos4__text{
+	font-size: 35px;
+	color:#a2a2a2;
+	padding-left: 30px;
+	padding-top: 5px;
+}
+.photos4__button{
+	font-size:20px;
+	color: #a2a2a2;
+	text-decoration: none;
+	padding-left: 30px;
+
+}
+.button__specs{
+	padding-top: 65px;
+}
+/*================================Intro5===================================*/
 .intro5{
 	background: #928a8a url("Images/intro5.png") center no-repeat;
 	background-size: cover;
@@ -277,7 +302,7 @@ h1, h2, h3, h4, h5, h6{
 	text-transform: uppercase;
 }
 
-/*======================== =======================*/
+/*=============================== ================================*/
 
 
 
