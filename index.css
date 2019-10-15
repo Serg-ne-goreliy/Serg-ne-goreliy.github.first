@@ -31,6 +31,11 @@ h1, h2, h3, h4, h5, h6{
 	max-width: 1620px;
 	margin:0 auto;
 }
+.container4{
+	width:100%;
+	max-width: 1400px;
+	margin: 0 auto;
+}
 /*==============Header=============*/
 .header{
     position: absolute;
@@ -186,7 +191,7 @@ h1, h2, h3, h4, h5, h6{
 .photo{
 	height:700px;
 	width: 100%;
-	max-width: 570px;
+	max-width: 700px;
 	display: flex;
 	flex-wrap:wrap;
 	
@@ -196,8 +201,21 @@ h1, h2, h3, h4, h5, h6{
     display: flex;
     width: 50%;
     height: 50%;
-    
-
+   
+}
+.photos1{
+	background-color: #2339a8;
+	-webkit-transition: all 0.2s linear;
+	height: 350px;
+	width: 100%;
+}
+.photos1:hover{
+	-webkit-transform: scale(1.1,1.1);
+}
+.photos1__text{
+	font-size: 35px;
+	padding-left: 30px;
+	padding-top: 5px;
 }
 .photos2{
 	background: url("Images/2222.png") center no-repeat;
@@ -213,8 +231,12 @@ h1, h2, h3, h4, h5, h6{
 }
 .photos4{
 	background-color: #fff;
+	-webkit-transition: all .2s linear;
 	height: 350px;
 	width: 100%;
+}
+.photos4:hover{
+	-webkit-transform: scale(1.1,1.1);
 }
 /*======================Intro5========================*/
 .intro5{
