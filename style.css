@@ -8,7 +8,7 @@ body {
 	font-size:15px;
 	color:#fff;
 
-	background-color:#928a8a;
+	background-color:#1e1e21;
 	
 }
 h1, h2, h3, h4, h5, h6{
@@ -41,14 +41,13 @@ h1, h2, h3, h4, h5, h6{
 	max-width: 1200px;
 	margin: auto;
 	height:679px;
-	margin-top:113px;
 }
 .container1{
 	width: 100%;
 	max-width: 1200px;
 	margin: 0 auto;
 	height: 792px;
-	padding-top: 113px;
+	padding-top: 220px;
 }
 /*==============Header=============*/
 .header{
@@ -81,16 +80,33 @@ h1, h2, h3, h4, h5, h6{
 }
 /*===============================Intro=================================*/
 .intro{
-	height:792px;
+	height:674px;
 	width: 100%;
-	background: #928a8a url("Images/intro.png") center no-repeat;
+	background: #1e1e21 url("Images/intro.png") center no-repeat;
 	background-size: cover;
 	position: relative;	
 }
+.strelki{
 
+}
+.face-block{
+	height: 250px;
+	width: 100%;
+	max-width: 1200px;
+	font-size: 65px;
+	opacity: 0.7;
+	padding-left: 40px;
+	padding-top: 50px;
+
+}
+.face-text{
+	width: 100%;
+	max-width:1200px;
+	height: 300px;
+}
 /*=================================Intro2===================================*/
 .intro2{
-	background: #928a8a url("Images/intro2.png") center no-repeat;
+	background: #1e1e21 url("Images/intro2.png") center no-repeat;
 	background-size: cover;
 	height:650px;
 	width: 100%;	
@@ -149,7 +165,7 @@ h1, h2, h3, h4, h5, h6{
 }
 /*===============================Intro3==============================*/
 .intro3{
-	background: #928a8a url("Images/intro3.png") center no-repeat;
+	background: #1e1e21 url("Images/intro3.png") center no-repeat;
 	background-size: cover;
 	height:950px;
 	width: 100%;	
@@ -211,7 +227,7 @@ h1, h2, h3, h4, h5, h6{
 }
 /*==============================Intro4===================================*/
 .intro4{
-	background: #928a8a url("Images/intro4.png") center no-repeat;
+	background: #1e1e21 url("Images/intro4.png") center no-repeat;
 	background-size: cover;
 	height:700px;
 	width: 100%;
@@ -291,7 +307,7 @@ h1, h2, h3, h4, h5, h6{
 }
 /*================================Intro5===================================*/
 .intro5{
-	background: #928a8a url("Images/intro5.png") center no-repeat;
+	background: #1e1e21 url("Images/intro5.png") center no-repeat;
 	background-size: cover;
 	height:300px;
 	width: 100%;
@@ -330,10 +346,24 @@ h1, h2, h3, h4, h5, h6{
 
 /*===============================Intro6================================*/
 .intro6{
-	height: 700px;
+	height: 667px;
+	background: #1e1e21 url("Images/intro6.png") center no-repeat;
+	background-size: cover;
+	width: 100%;
+	position: absolute;
 }
-
-
+.container6{
+    width: 100%;
+    max-width: 1200px;
+    margin:0 auto;
+    height: 667px;
+    position: relative;
+}
+.creator{
+	padding-top: 600px;
+	height: 67px;
+	padding-left: px;
+}
 
 
 
